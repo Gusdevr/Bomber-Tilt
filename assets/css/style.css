@@ -1,0 +1,549 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+
+
+body {
+    background-color: #3a0626;
+   
+    
+    
+}
+
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    width: 95%;
+    
+  }
+
+header {
+    position: sticky;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.51);
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    height: 80px;
+    backdrop-filter: blur(10px);
+
+    
+    
+    
+   
+}
+
+
+
+.imgtv{
+    align-items: center;
+    margin-left: 30px;
+    margin-top: -48px;
+    
+   
+}
+
+.imgtv h1{
+    font: poppins;
+    padding: 50px;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 5px 3px 5px black;
+    text-transform: uppercase;
+    
+    
+}
+
+
+header ul {
+    
+    display: flex;
+    gap: 40px;
+    margin-left: 250px;
+    
+   
+}
+
+
+header ul li{
+  margin-top: 32px;
+  list-style: none;
+    
+    
+}
+
+
+ul li a {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+ul li a:hover {
+    color: rgb(81, 146, 133);
+}
+
+
+
+.banner {
+   
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    z-index: -1000;
+    position: absolute;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    
+
+}
+
+
+.initial-inter{
+   
+    margin-top: 150px;
+    height: 350px;
+    
+
+    
+}
+
+.border-efect {
+    position: relative;
+    border-bottom: 15px ridge #fff;
+    z-index: 1;
+}
+
+
+
+.sec-info {
+  position: absolute;
+    margin-top: 120px;
+    z-index: -3;
+    
+    
+}
+
+
+.sec-info img {
+    
+    float: right;
+    
+}
+
+.initial-inter {
+
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.initial-inter h1 {
+    color: rgb(10, 232, 61);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 35px;
+    text-shadow: 4px 4px 3px  black;
+    /* -webkit-text-stroke-width: 3px;  //experience related para fazer contorno 
+    -webkit-text-stroke-color:black; */
+}
+
+
+.initial-inter p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px  black;
+    background-color: rgba(1, 1, 1, 0.451);
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    
+    
+}
+
+
+.initial-inter .art-main p {
+    width: 515px;
+
+}
+
+
+
+.initial-inter button {
+    background-image: linear-gradient(to bottom right, blueviolet,rgb(61, 2, 87));
+    border: solid 5px cornflowerblue;
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 112px;
+    margin-left: 160px;
+    
+    
+}
+
+
+
+.initial-inter button:hover {
+    border-color: rgb(21, 226, 21);
+    transition: 300ms;
+    size: 6px;
+}
+
+
+.initial-inter a {
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.initial-inter h5 {
+
+position: absolute;
+top: 62.3%;
+left: 7%;
+border: solid 2px #fff;
+width: 130px;
+height: 40px;
+border-radius: 10px;
+text-align: center;
+padding-top: 9px;
+color: #fff;   
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.356);
+
+
+}
+
+.initial-inter h5:hover {
+    color: rgb(228, 228, 6);
+    border-color: rgb(228, 228, 6);
+}
+
+ul .dash{
+    margin-top: 22px;
+    margin-left: 450px;
+    width: 15%;
+    border: solid 2px rgb(228, 228, 6);
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+ul .dash a {
+    color: rgb(228, 228, 6);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+ul .dash a:hover {
+   color:  rgb(81, 146, 133);
+   transition: 600ms;
+   
+}
+
+ul .dash:hover{
+    border-color: rgb(81, 146, 133) ;
+    transition: 600ms;
+
+}
+
+.sec-info p {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 35%;
+    border: solid 1px white;
+    padding: 20px;
+    max-width: 800px;
+}
+
+
+
+main .img-sec2 {
+    position: absolute;
+    top: 109.8%;
+    left: 20%;
+}
+
+main .img-sec2 button {
+    margin-left: 345px;
+    margin-top: 254px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 5px cornflowerblue;
+    width: 280px;
+    background-image: linear-gradient(to bottom right, blueviolet,rgb(61, 2, 87));
+    cursor: pointer;
+
+}
+
+main .img-sec2 button a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+main .img-sec2 button:hover {
+    border-color:   rgb(21, 226, 21);
+    
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.652)
+
+}
+
+dialog {
+    border: none;
+    border-radius: 10px;
+    padding: 40px;
+    width: 750px;
+    height: 400px;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, rgb(20, 20, 20),#133B37);
+    overflow-y: hidden;
+    
+}
+
+
+.btn-modal {
+    margin-left: 180px;
+    margin-top: 150px; 
+}
+
+
+
+.btn-modal button {
+    height: 45px;
+    width: 130px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, rgb(92, 145, 106),rgb(32, 127, 54));
+    border: none;   
+    font-size: 20px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 12.7%;
+    left: 57%;
+       
+}
+
+.btn-modal button:hover {
+    
+    background-image: linear-gradient(to bottom right, rgba(65, 110, 77, 0.645),rgba(77, 156, 96, 0.749));
+    
+}
+
+.btn-modal img {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    background: none;
+    cursor: pointer;
+    padding-left: 67%;
+}
+
+.subsM {
+   padding-left: 280px;
+   margin-top: 100px;
+    
+
+}
+
+dialog h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+   
+   
+    
+}
+
+dialog h4 {
+    
+    color: rgb(237, 229, 229);
+    font-weight: 300;
+   
+    
+}
+
+
+
+dialog #modal-input {
+    border: solid 1px rgb(20, 135, 33);
+    background-color: rgb(23, 30, 23);
+    border-radius: 5px;
+    width: 245px;
+    height: 45px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 100px;
+    position: absolute;
+    top: 76%;
+
+    
+    
+
+}
+
+
+footer .secFinal {
+    position: absolute;
+    bottom: -200%;
+    
+}
+
+footer .secFinal h3 {
+    position: absolute;
+    margin: 10%  39%;
+    font-size: 60px;
+    font-weight: 700;
+    background-clip: border-box;
+
+
+    background: -webkit-linear-gradient(top, #E5E5E5 , #DFDFDF );
+    background: linear-gradient(to bottom, #919191 , #FFFFFF );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.secFinal span {
+    position: absolute;
+    margin: 16% 35%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.secFinal img {
+    margin-bottom: 70px;
+}
+
+
+
+.container-itens {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 25%;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.item{
+    width: 50vw;
+    height: 50vh;
+    transition: all 1.5s;
+}
+
+.item:first-child {
+    margin-left: -100%;
+}
+
+.item img{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+   
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    z-index: 1;
+
+}
+
+.action-button:hover{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+footer .socialMedia {
+    position: absolute;
+    top: 293%;
+    left: 70%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
