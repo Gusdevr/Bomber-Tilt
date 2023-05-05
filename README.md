@@ -27,7 +27,7 @@ Screenshots do Site:
 
 ![App Screenshot](https://i.imgur.com/5aqcVmp.png)
 
-Game:
+
 
 
 
