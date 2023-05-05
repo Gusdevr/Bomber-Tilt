@@ -28,6 +28,7 @@ Screenshots do Site:
 ![App Screenshot](https://i.imgur.com/5aqcVmp.png)
 
 
+Link do Site: https://dreamy-fenglisu-f0566a.netlify.app/
 
 
 
