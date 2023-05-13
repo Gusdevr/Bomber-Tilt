@@ -51,10 +51,6 @@ Link do Site: https://dreamy-fenglisu-f0566a.netlify.app/
 
 
 
-## Autores
-
-- [@Gusdevr](https://github.com/Gusdevr)
-
 
 
 
