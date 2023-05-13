@@ -1,4 +1,3 @@
-
 # BOMBER TILT
 
 Bomber Tilt é um projeto com token próprio desenvolvido em solidity e jogo desenvolvido na linguagem GLM para a plataforma web 3,
@@ -9,13 +8,6 @@ Na atual versão 1, os links de redes sociais e o whitepaper do projeto se encon
 
 
 
-
-
-<<<<<<< HEAD
-=======
-![Logo](https://i.imgur.com/ZKfzcT8.jpg)
-
->>>>>>> 83c78729ec2d323de470df2385e1d18c8bdc53a0
 
 ## Screenshots 
 
@@ -30,12 +22,25 @@ Screenshots do Site:
 
 ![App Screenshot](https://i.imgur.com/5aqcVmp.png)
 
-<<<<<<< HEAD
-Game:
-=======
 
 Link do Site: https://dreamy-fenglisu-f0566a.netlify.app/
->>>>>>> 83c78729ec2d323de470df2385e1d18c8bdc53a0
+
+
+
+
+
+
+
+
+
+
+
+## Autores
+
+- [@Gusdevr](https://github.com/Gusdevr)
+
+
+
 
 
 
