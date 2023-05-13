@@ -525,6 +525,108 @@ footer .socialMedia {
 
 
 
+@media(max-width: 1300px ) {
+
+    body  {
+        background-color: rgb(54, 3, 38);
+        
+    }
+
+   
+
+    ul {
+        position: absolute;
+        right: 48%;
+    }
+
+     .nav-home {
+        display: none;
+    }
+    
+
+   header {
+    position: absolute;
+    max-width: 1300px;
+    left: -20px;
+    
+
+   }
+
+   .imgtv a {
+    position: absolute;
+    bottom: 20%;
+    left: 1%;
+   }
+
+   
+   
+   ul .dash {
+    position: absolute;
+    left: 25%;
+    bottom: -40%;
+    padding: 20px;
+    width: 200px;
+
+   }
+
+   main {
+    max-width: 1300px;
+  
+   }
+
+   
+
+
+   main .sec-info {
+    width: 1300px;
+ 
+   }
+
+   .img-sec2 button {
+    position: absolute;
+    right: 40%;
+    bottom: 355%;
+    height: 200px;
+    
+
+   }
+
+    .sec-info p {
+    position: absolute;
+    margin-left: 200px;
+    width: 500px;
+   
+    }
+
+
+
+   .sec-info img {
+   width: 1300px;
+   height: 1200px;
+   }
+
+   .img-sec2 {
+    margin-top: 950px;
+   
+   }
+
+   footer .secFinal {
+   width: 1300px;
+   }
+   
+ 
+
+   footer img {
+    width: 1300px;
+   }
+
+   footer .socialMedia {
+    display: none;
+   }
+    
+}
+
+
 
 
 

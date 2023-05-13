@@ -11,8 +11,11 @@ Na atual versão 1, os links de redes sociais e o whitepaper do projeto se encon
 
 
 
+<<<<<<< HEAD
+=======
 ![Logo](https://i.imgur.com/ZKfzcT8.jpg)
 
+>>>>>>> 83c78729ec2d323de470df2385e1d18c8bdc53a0
 
 ## Screenshots 
 
@@ -27,8 +30,12 @@ Screenshots do Site:
 
 ![App Screenshot](https://i.imgur.com/5aqcVmp.png)
 
+<<<<<<< HEAD
+Game:
+=======
 
 Link do Site: https://dreamy-fenglisu-f0566a.netlify.app/
+>>>>>>> 83c78729ec2d323de470df2385e1d18c8bdc53a0
 
 
 

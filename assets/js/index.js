@@ -1,4 +1,22 @@
 
+
+//instance object Web3
+let web3 = new Web3(Web3.givenProvider || "https://bsc-dataseed.binance.org");
+
+// user require carteira Metamask
+document.getElementById('login-btn').addEventListener('click', function(event) {
+    event.preventDefault()
+    ethereum.request({ method: 'eth_requestAccounts' })
+    .then(function(accounts) {
+     
+        alert('you are logged in')
+        console.log('User logged in with account:', accounts[0]);
+    })
+    .catch(function(error) {
+        console.log(error);
+    });
+});
+
 //modal subscribe
 
 const button = document.querySelector('h5')
@@ -72,5 +90,9 @@ document.querySelector('#container-itens').addEventListener('mousewheel', previu
 document.querySelector('#previus').addEventListener('click', previus)
 document.querySelector('#next').addEventListener('click', next)
 itens = document.querySelectorAll('.item')
+
+
+
+
 
 
